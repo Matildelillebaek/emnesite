@@ -1,0 +1,55 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+h1,
+h3 {
+  font-family: "Kapakana", cursive;
+  font-optical-sizing: 1.3rem;
+  font-weight: weight;
+  font-style: normal;
+  color: black;
+}
+.TopText {
+  font-size: 4.5em;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  margin: 40px;
+}
+p,
+h2,
+h4 {
+  font-family: "Montserrat", sans-serif;
+  margin: 16px 16% 16px 16%;
+  font-optical-sizing: auto;
+  text-align: center;
+  font-weight: weight;
+  font-style: normal;
+  color: #bbb;
+}
+header {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+}
+.button {
+  display: inline-block;
+  padding: 12px 30px;
+  font-size: 1rem;
+  color: #000000;
+  border: 2px solid #000;
+  background-color: rgb(255, 255, 255);
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+.button:hover {
+  background-color: #000;
+  color: #fff;
+  transform: scale(1.05);
+}
